@@ -9,7 +9,7 @@ function setup() {
   //  }
   //}
   //bottom lines
-  
+
   strokeWeight(8);
   line(0,610,500,610);
   line(0,630,490,630);
@@ -30,6 +30,19 @@ function setup() {
    vertex(785,100);
    vertex(850,0);
    vertex(950,0);
+  endShape();
+
+  //FIX
+  fill(0);
+  beginShape();
+   vertex(900,642);
+   vertex(730,642);
+   vertex(750,600);
+   vertex(700,500);
+   vertex(700,200);
+   vertex(735,100);
+   vertex(800,0);
+   vertex(900,0);
   endShape();
 
   //top lines
