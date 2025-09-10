@@ -10,6 +10,7 @@ function setup() {
   //}
   noStroke();
 
+  //Skin
   fill(230,207,184);
   beginShape();
    vertex(950,642);
@@ -22,6 +23,7 @@ function setup() {
    vertex(950,0);
   endShape();
 
+  //Hairstrands + eyebrow
   fill(0);
   stroke(0);
   strokeWeight(10);
@@ -31,18 +33,22 @@ function setup() {
   ellipse(300,0,50,900);
   ellipse(200,0,40,600);
   ellipse(75,0,20,500);
+  ellipse(100,0,15,400);
+  ellipse(30,0,15,420);
 
-  fill(230,207,184);
+  fill(230,207,184); //skin tone
   stroke(0);
   strokeWeight(20);
   bezier(819,642,760,469,828,163,855,0);
   
   noStroke();
-  fill(212,175,11);
+  fill(212,175,11); //yellow
   ellipse(350,270,100,600);
   ellipse(220,250,50,600);
-  ellipse(90,250,30,600);
+  ellipse(80,250,30,600);
+  ellipse(110,250,20,600);
   ellipse(600,310,130,670);
+  ellipse(40,250,15,600);
 
   //top lines
   noStroke();
